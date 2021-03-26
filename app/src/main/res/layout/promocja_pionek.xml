@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/grupa_promocji">
+        <RadioButton
+                android:text="Hetman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/promo_hetman"/>
+        <RadioButton
+                android:text="Goniec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/promo_goniec"/>
+        <RadioButton
+                android:text="Wieża"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/promo_wieza"/>
+        <RadioButton
+                android:text="Skoczek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/promo_skoczek"/>
+    </RadioGroup>
+</LinearLayout>

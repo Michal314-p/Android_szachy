@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:background="#4B4B4B"
+        android:backgroundTint="#004E4949"
+        android:foregroundTint="#008A6363" android:id="@+id/tlo">
+
+    <Button
+            android:text="Zagraj z innym graczem"
+            android:layout_width="225dp"
+            android:layout_height="56dp"
+            android:id="@+id/przycisk_multi" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/przycisk_sedzia" app:layout_constraintVertical_bias="0.086"
+            android:textColor="#FFFFFF" android:backgroundTint="#673AB7" app:layout_constraintHorizontal_bias="0.503"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chess Arbiter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/textView3"
+            app:layout_constraintVertical_bias="0.053" android:textSize="33sp" android:textColor="#009688"/>
+    <Button
+            android:text="Sędziuj rozgrywkę"
+            android:layout_width="225dp"
+            android:layout_height="56dp"
+            android:id="@+id/przycisk_sedzia" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.726" android:textColor="#FFFFFF" android:backgroundTint="#673AB7"
+            app:layout_constraintHorizontal_bias="0.503"/>
+    <Button
+            android:text="Otwórz archiwum"
+            android:layout_height="56dp"
+            android:id="@+id/otworz_archiwum"
+            app:layout_constraintTop_toBottomOf="@+id/przycisk_multi" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="225dp" android:textColor="#FFFFFF" android:backgroundTint="#673AB7"/>
+    <ImageView
+            android:layout_width="321dp"
+            android:layout_height="277dp" app:srcCompat="@drawable/korona"
+            android:id="@+id/imageView" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.512"
+            app:layout_constraintVertical_bias="0.256"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

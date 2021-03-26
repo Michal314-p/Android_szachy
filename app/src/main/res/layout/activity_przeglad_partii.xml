@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Aktywnosci.Przeglad_partii" android:background="#5E5E5E">
+    <TextView
+            android:text="Wydarzenie:"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/wydarzenie_tekst" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.023"
+            app:layout_constraintStart_toEndOf="@+id/textView6" android:textColor="#8BC34A"/>
+    <TextView
+            android:text="Wydarzenie:"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/miejsce_tekst" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.074"
+            app:layout_constraintStart_toEndOf="@+id/textView6" android:textColor="#8BC34A"/>
+    <TextView
+            android:text="Przebieg Partii:"
+            android:layout_width="162dp"
+            android:layout_height="36dp"
+            android:id="@+id/textView18" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="0.461" app:layout_constraintVertical_bias="0.381"
+            android:gravity="center" android:textColor="#009688"/>
+    <TextView
+            android:text="Wydarzenie:"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/wynik_tekst" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.329"
+            app:layout_constraintStart_toEndOf="@+id/textView10" android:textColor="#8BC34A"/>
+    <TextView
+            android:text="Wydarzenie:"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/data_tekst" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.125"
+            app:layout_constraintStart_toEndOf="@+id/textView6" android:textColor="#8BC34A"/>
+    <TextView
+            android:text="Wydarzenie:"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/runda_tekst" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.175"
+            app:layout_constraintStart_toEndOf="@+id/textView7" android:textColor="#8BC34A"/>
+    <TextView
+            android:text="Wydarzenie:"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/czarny_tekst" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.277"
+            app:layout_constraintStart_toEndOf="@+id/textView9" android:textColor="#8BC34A"/>
+    <TextView
+            android:text="Wydarzenie:"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:id="@+id/bialy_tekst" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.227"
+            app:layout_constraintStart_toEndOf="@+id/textView8" android:textColor="#8BC34A"/>
+    <TextView
+            android:text="Miejsce:"
+            android:layout_width="162dp"
+            android:layout_height="36dp"
+            android:id="@+id/textView5" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="0.028" app:layout_constraintVertical_bias="0.073"
+            android:textColor="#FFFFFF"/>
+    <TextView
+            android:text="Data:"
+            android:layout_width="162dp"
+            android:layout_height="36dp"
+            android:id="@+id/textView6" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="0.028" app:layout_constraintVertical_bias="0.123"
+            android:textColor="#FFFFFF"/>
+    <TextView
+            android:text="Runda:"
+            android:layout_width="162dp"
+            android:layout_height="36dp"
+            android:id="@+id/textView7" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="0.028" app:layout_constraintVertical_bias="0.174"
+            android:textColor="#FFFFFF"/>
+    <TextView
+            android:text="Czarny:"
+            android:layout_width="162dp"
+            android:layout_height="36dp"
+            android:id="@+id/textView9" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="0.028" app:layout_constraintVertical_bias="0.279"
+            android:textColor="#FFFFFF"/>
+    <TextView
+            android:text="Wynik:"
+            android:layout_width="162dp"
+            android:layout_height="36dp"
+            android:id="@+id/textView10" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="0.028" app:layout_constraintVertical_bias="0.328"
+            android:textColor="#FFFFFF"/>
+    <TextView
+            android:text="Biały"
+            android:layout_width="162dp"
+            android:layout_height="36dp"
+            android:id="@+id/textView8" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="0.028" app:layout_constraintVertical_bias="0.225"
+            android:textColor="#FFFFFF"/>
+    <TextView
+            android:text="a"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/przebieg_tekst" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="24sp"
+            app:layout_constraintVertical_bias="0.984"
+            app:layout_constraintHorizontal_bias="0.466" app:layout_constraintTop_toBottomOf="@+id/textView18"
+            android:background="#00BCD4"/>
+    <TextView
+            android:text="Wydarzenie:"
+            android:layout_width="162dp"
+            android:layout_height="36dp"
+            android:id="@+id/textView" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="0.028" app:layout_constraintVertical_bias="0.023"
+            android:textColor="#FFFFFF"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
